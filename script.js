@@ -11,9 +11,9 @@ function getSearchMethod(searchTerm){
 
 function searchWeather(searchTerm){
     getSearchMethod(searchTerm);
-    fetch('http://api.openweathermap.org/data/2.5/weather?$(searchMethod)=$(searchTerm)&APPID=$(appID)&units=$(units)').then(result =>{
+    fetch(`https://api.openweathermap.org/data/2.5/weather?${searchMethod}=${searchTerm}&APPID=${appId}&units=${units}`).then(result =>{
         return result.json();
-    }).then(result=>{
+    }).then(result=> {
         init(result);
     })
 
@@ -24,7 +24,7 @@ function init(resultFromServer){
 }
 
 document.getElementById('searchBtn').addEventListener('click', () => {
-    let searchTerm = document.getElementById('searchInput').ariaValueMax;
+    let searchTerm = document.getElementById('searchInput').value;
     if(searchTerm)
         searchWeather(searchTerm);
 })
