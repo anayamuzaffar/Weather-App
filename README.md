@@ -8,10 +8,11 @@ A dynamic weather dashboard built with vanilla JavaScript and the [OpenWeatherMa
 
 ## ✨ Features
 
-- 🔍 **City or ZIP code search** — look up current weather anywhere in the world
-- 🌡️ **Real-time data** — temperature (°F), wind speed, and humidity pulled live from OpenWeatherMap
-- 🖼️ **Weather icons** — official condition icons rendered dynamically per result
-- 🌅 **Adaptive backgrounds** — background image updates automatically based on condition:
+- **City or ZIP code search** — look up current weather anywhere in the world
+- **Real-time data** — temperature (°F), wind speed, and humidity pulled live from OpenWeatherMap
+- **Weather icons** — official condition icons rendered dynamically per result
+- **Adaptive backgrounds** — background image updates automatically based on condition:
+
   | Condition | Background |
   |-----------|------------|
   | ☀️ Clear skies | Bright, sunny scene |
@@ -22,7 +23,7 @@ A dynamic weather dashboard built with vanilla JavaScript and the [OpenWeatherMa
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|------------|
