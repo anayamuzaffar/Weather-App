@@ -61,6 +61,7 @@ function init(resultFromServer){
 
     temperatureElement.innerHTML = Math.floor(resultFromServer.main.temp) + '&#176';
     windSpeedElement.innerHTML = 'Winds at ' + Math.floor(resultFromServer.wind.speed) + 'm/s';
+    cityHeader.innerHTML = resultFromServer.name;
     humidityElement.innerHTML = 'Humidity levels at ' + resultFromServer.main.humidity + '%'
 }
 
