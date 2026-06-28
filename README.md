@@ -48,8 +48,7 @@ A dynamic weather dashboard built with vanilla JavaScript and the [OpenWeatherMa
 - [ ] 5-day forecast view
 - [ ] Toggle between °F and °C
 - [ ] Geolocation support (auto-detect user's city)
-- [ ] Animated weather transitions
-- [ ] Dark mode overlay option
+- [ ] Country/State also displayed
 
 ---
 
