@@ -37,11 +37,9 @@ A dynamic weather dashboard built with vanilla JavaScript and the [OpenWeatherMa
 
 > *Search a city → see live weather data and a matching background*
 
-## Preview
+![](preview1.png)
 
-| | |
-|---|---|
-| ![](preview1.png) | ![](preview2.png) |
+![](preview2.png)
 
 ---
 
